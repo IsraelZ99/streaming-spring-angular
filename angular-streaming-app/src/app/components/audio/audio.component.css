@@ -1,0 +1,68 @@
+.container-fluid {
+  background: rgb(55, 55, 55) !important;
+}
+
+.container .main-toolbar {
+  justify-content: center;
+}
+
+.container .main-toolbar .spacer {
+  flex: 1 1 auto;
+}
+
+.container .main-toolbar .toolbar-btn {
+  font-size: 16px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.content .logo {
+  margin: 0.5rem;
+  text-align: center;
+  font-size: 24px;
+  color: #0471d6;
+}
+
+.content .logo img {
+  background-color: #0471d6;
+  padding: 0.5rem;
+}
+
+.content .logo .mat-icon {
+  height: 160px !important;
+  width: 160px !important;
+  font-size: 160px !important;
+}
+
+.content .logo .song-list {
+  height: 200px;
+  overflow: scroll;
+}
+
+.media-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.media-footer .spacer {
+  width: 200%;
+}
+
+.media-footer .time-slider {
+  width: 100% !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.media-footer .media-action-bar {
+  width: 100%;
+  padding: 2.5rem;
+  justify-content: center;
+}
+
+.media-footer .media-action-bar .mat-icon {
+  height: 48px !important;
+  width: 48px !important;
+  font-size: 48px !important;
+}
